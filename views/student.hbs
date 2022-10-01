@@ -4,7 +4,7 @@
         <th>age</th>
         <th>email</th>
         <th>image</th>
-        <th>add</th>
+        <th><a href="/add" class="btn btn-primary">add</a></th>
     </tr>
     {{#each student}}
     <tr>
@@ -12,9 +12,7 @@
         <td>{{this.age}}</td>
         <td>{{email}}</td>
         <td><img src="{{image}}" width="100px" height="100" alt=""></td>
-        <td>
-            <a href="/add" class="btn btn-primary">add</a>
-        </td>
+        
     </tr>
     {{/each}}
 </table>

@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+    <tr>
+        <th>name</th>   
+        <th>age</th>
+        <th>email</th>
+        <th>image</th>
+    </tr>
+    {{#each student}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.age}}</td>
+        <td>{{email}}</td>
+        <td><img src="{{image}}" width="100px" height="100" alt=""></td>
+    </tr>
+    {{/each}}
+</table>

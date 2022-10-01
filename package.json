@@ -1,0 +1,27 @@
+{
+    "name": "1_10_2022",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/codeeecode/1_10_2022.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/codeeecode/1_10_2022/issues"
+    },
+    "homepage": "https://github.com/codeeecode/1_10_2022#readme",
+    "dependencies": {
+        "express": "^4.18.1",
+        "hbs": "^4.2.0",
+        "mongoose": "^6.6.3",
+        "nodemon": "^2.0.20"
+    }
+}
